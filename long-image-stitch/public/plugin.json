@@ -1,0 +1,41 @@
+{
+  "name": "long-image-stitch",
+  "title": "长图拼接",
+  "description": "将多个图片拼接成长图片",
+  "version": "0.0.1",
+  "author": "Augenstern",
+  "homepage": "https://github.com/Augenstern-O",
+  "main": "index.html",
+  "logo": "assets/icons/logo.png",
+  "preload": "preload.js",
+  "development": {
+    "main": "http://localhost:9090/"
+  },
+  "pluginSetting": {
+    "single": false
+  },
+  "features": [
+    {
+      "code": "stitch",
+      "explain": "将多张图片拼接成一张长图",
+      "cmds": [
+        "拼接",
+        "图片拼接",
+        "长图",
+        "拼图",
+        "stitch",
+        {
+          "type": "img",
+          "label": "图片拼接"
+        },
+        {
+          "type": "files",
+          "label": "图片拼接",
+          "fileType": "file",
+          "match": "/\\.(?:jpeg|jpg|png|webp)$/i",
+          "minLength": 1
+        }
+      ]
+    }
+  ]
+}
