@@ -1,0 +1,9 @@
+/* 厂商图标来自 LibreTranslate 官网，复用现有图标占位尺寸。 */
+.libretranslate-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-mask: url('./libretranslate.svg') center / contain no-repeat;
+  mask: url('./libretranslate.svg') center / contain no-repeat;
+}

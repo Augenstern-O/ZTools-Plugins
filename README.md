@@ -10,6 +10,7 @@
 | 插件 | 说明 | 当前版本 |
 | --- | --- | --- |
 | [long-image-stitch](long-image-stitch/) | 长图拼接：将多个图片拼接成一张长图 | v0.0.1 |
+| [easy-translate](easy-translate/) | 易翻翻译：多服务互译、图片翻译、朗读与变量命名，支持本地 LibreTranslate | v0.0.1 |
 
 ## 目录约定
 
@@ -20,7 +21,7 @@
 
 ## 下载与发布
 
-在[仓库 Releases](https://github.com/Augenstern-O/ZTools-Plugins/releases) 中按插件标签下载 `.zpx` 附件。每个插件独立发布，例如 `long-image-stitch/v0.0.1`。
+在[仓库 Releases](https://github.com/Augenstern-O/ZTools-Plugins/releases) 中按插件标签下载 `.zpx` 附件。每个插件独立发布，例如 `long-image-stitch/v0.0.1`、`easy-translate/v0.0.1`。
 
 发布前在对应插件目录执行 `node scripts/pack_zpx.js` 和 `node scripts/verify_zpx.js`，然后将生成的安装包上传到对应 Release。安装包不提交到源码仓库。
 
